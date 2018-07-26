@@ -14,6 +14,9 @@
 		D20C7FE42109956300F7FF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20C7FE22109956300F7FF7B /* LaunchScreen.storyboard */; };
 		D20C7FE72109956300F7FF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D20C7FE62109956300F7FF7B /* main.m */; };
 		D20C7FF12109956300F7FF7B /* Module2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20C7FF02109956300F7FF7B /* Module2Tests.m */; };
+		D20C800021099A2800F7FF7B /* WorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D20C7FFE21099A2800F7FF7B /* WorkVC.m */; };
+		D20C800121099A2800F7FF7B /* WorkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D20C7FFF21099A2800F7FF7B /* WorkVC.xib */; };
+		D20C800321099A5900F7FF7B /* beijing.png in Resources */ = {isa = PBXBuildFile; fileRef = D20C800221099A5900F7FF7B /* beijing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		D20C7FEC2109956300F7FF7B /* Module2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Module2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D20C7FF02109956300F7FF7B /* Module2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Module2Tests.m; sourceTree = "<group>"; };
 		D20C7FF22109956300F7FF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20C7FFD21099A2800F7FF7B /* WorkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkVC.h; sourceTree = "<group>"; };
+		D20C7FFE21099A2800F7FF7B /* WorkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkVC.m; sourceTree = "<group>"; };
+		D20C7FFF21099A2800F7FF7B /* WorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkVC.xib; sourceTree = "<group>"; };
+		D20C800221099A5900F7FF7B /* beijing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beijing.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +115,9 @@
 		D20C7FFB2109996600F7FF7B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D20C7FFD21099A2800F7FF7B /* WorkVC.h */,
+				D20C7FFE21099A2800F7FF7B /* WorkVC.m */,
+				D20C7FFF21099A2800F7FF7B /* WorkVC.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -115,6 +125,7 @@
 		D20C7FFC2109997100F7FF7B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D20C800221099A5900F7FF7B /* beijing.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -201,7 +212,9 @@
 			files = (
 				D20C7FE42109956300F7FF7B /* LaunchScreen.storyboard in Resources */,
 				D20C7FE12109956300F7FF7B /* Assets.xcassets in Resources */,
+				D20C800321099A5900F7FF7B /* beijing.png in Resources */,
 				D20C7FDF2109956000F7FF7B /* Main.storyboard in Resources */,
+				D20C800121099A2800F7FF7B /* WorkVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +235,7 @@
 				D20C7FDC2109956000F7FF7B /* ViewController.m in Sources */,
 				D20C7FE72109956300F7FF7B /* main.m in Sources */,
 				D20C7FD92109956000F7FF7B /* AppDelegate.m in Sources */,
+				D20C800021099A2800F7FF7B /* WorkVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
